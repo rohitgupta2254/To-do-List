@@ -7,6 +7,7 @@ const Card = ({ card, onUpdate }) => {
     title: card.title,
     description: card.description
   });
+  // ...existing code...
 
   const updateCard = async () => {
     try {
@@ -72,6 +73,7 @@ const Card = ({ card, onUpdate }) => {
 
   return (
     <div className="card-item">
+      {/* ...existing code... */}
       <div onClick={() => setEditing(true)}>
         <div className="card-title">{card.title}</div>
         {card.description && (

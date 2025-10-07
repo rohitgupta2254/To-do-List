@@ -63,8 +63,8 @@ body {
 }
 
 .btn-small {
-  padding: 6px 12px;
-  font-size: 12px;
+  padding: 4px 8px;
+  font-size: 10px;
 }
 
 /* Form Styles */
@@ -240,7 +240,7 @@ body {
 .board-container {
   padding: 16px;
   min-height: 100vh;
-  background: #0079bf;
+  background: #878f93;
 }
 
 .board-header {
@@ -277,7 +277,7 @@ body {
 }
 
 .list-header {
-  padding: 8px;
+  /* padding: 8px; */
   font-weight: 600;
   display: flex;
   justify-content: space-between;
@@ -393,7 +393,7 @@ body {
 
 /* Navigation */
 .navbar {
-  background: #026aa7;
+  background: #3248b0;
   padding: 8px 16px;
   display: flex;
   justify-content: space-between;

@@ -7,6 +7,7 @@ const List = ({ list, onUpdate }) => {
   const [title, setTitle] = useState(list.title);
   const [showNewCardForm, setShowNewCardForm] = useState(false);
   const [newCard, setNewCard] = useState({ title: '', description: '' });
+  // ...existing code...
 
   const updateList = async () => {
     if (!title.trim() || title === list.title) {
@@ -87,6 +88,8 @@ const List = ({ list, onUpdate }) => {
           </>
         )}
       </div>
+
+      {/* ...existing code... */}
 
       <div className="list-cards">
         {list.cards && list.cards.map(card => (

@@ -7,6 +7,7 @@ const Dashboard = () => {
   const [showCreateForm, setShowCreateForm] = useState(false);
   const [newBoard, setNewBoard] = useState({ title: '', description: '' });
   const [error, setError] = useState('');
+  // ...existing code...
 
   useEffect(() => {
     fetchBoards();
@@ -68,6 +69,7 @@ const Dashboard = () => {
             {error}
           </div>
         )}
+        {/* ...existing code... */}
 
         <div className="boards-grid">
           {boards.map(board => (
